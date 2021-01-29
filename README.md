@@ -18,21 +18,68 @@ Let's implement the following methods for the Queue class:
 
 `enqueue` adds a node to the back of the queue using the provided data.
 
+```
+queue = new Queue()
+
+queue.enqueue("first")
+queue.front
+=> Node, data: "first", next: nil
+
+queue.rear
+=> Node, data: "first", next: nil
+```
+
 ### `dequeue`
 
 `dequeue` removes the node at the front of the queue and returns it. Don't worry if `dequeue` is called on an empty queue. It's OK for it to return the default return value, such as `undefined` or `null` or `nil`.
+
+```
+queue = new Queue()
+
+queue.enqueue("first")
+queue.dequeue()
+=> Node, data: "first", next: nil
+```
 
 ### `peek`
 
 `peek` returns the node at the front of the queue without removing it. If the queue is empty, use the default return value, e.g. `undefined` or `nil`.
 
+```
+queue = new Queue()
+
+queue.enqueue("first")
+queue.peek()
+=> Node, data: "first", next: nil
+
+queue.front
+=> Node, data: "first", next: nil
+```
+
 ### `isEmpty`
 
 `isEmpty` returns `true` if the queue is empty, otherwise `false`.
 
+```
+queue = new Queue()
+
+queue.isEmpty()
+=> true
+```
+
 ### `size`
 
 `size` returns the number of nodes currently in the queue.
+
+```
+queue = new Queue()
+queue.size()
+=> 0
+
+queue.enqueue("first")
+queue.size()
+=> 1
+```
 
 ### `search(target)`
 
