@@ -1,4 +1,4 @@
-# Days 1 to 3: Create a Queue Class Using Nodes
+# Days 1 to 2: Create a Queue Class Using Nodes
 
 **Fork and then clone me!**
 
