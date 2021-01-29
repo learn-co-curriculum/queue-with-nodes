@@ -6,7 +6,7 @@ Previously, we created a Queue class using an Array as the underlying data struc
 
 ## What Is a Queue?
 
-A queue is a data structure where items are processed in first-in-first-out order (FIFO). It has two ends: a front and a rear. The front is where items are dequeued from first, while items at the rear are handled last. Items are added to the rear of the queue until the queue is full. A queue operates a lot like a queue at the checkout of a grocery store. Customers join at the end of the line and are served at the front of the line.
+A queue is a data structure where items are processed in first-in-first-out order (FIFO). It has two ends: a front and a rear. The front is where items are dequeued from first, while items at the rear are handled last. Items are added to the rear of the queue. A queue operates a lot like a queue at the checkout of a grocery store. Customers join at the end of the line and are served at the front of the line.
 
 ## Implement the Queue Class
 
